@@ -17,10 +17,10 @@ function sleep(ms) {
         })
         await sleep(2000);
         console.clear()
-        console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
+        console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21 @FadlanKull`)}`)
 console.log(`${chalk.white(`
 1 Push Trophy
-3 Push Crown
+2 Push Crown
 
 Choose to use the available number`)} 
 `);
@@ -45,7 +45,7 @@ const round = rs.question(`[+] Select Number  : `);
 
 });
 
-  const auth = rs.question('Auth Token : ');
+  const auth = rs.question('Tempel Kode Auth Anda !🤘😎 : ');
   console.log('');
 console.clear()
   while (true) {
@@ -53,7 +53,7 @@ console.clear()
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Maybe Auth Token Expired ?`));
+      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Kode Auth Anda Sudah Expired!`));
 
     } else if (result.includes('User')) {
 
@@ -63,9 +63,9 @@ console.clear()
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
+console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.yelllow(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.green(`Crown : ${crown}`)}
 
-${chalk.red(` Status : Succes✓`)}\n`));
+${chalk.green(` Status : Succes✓`)}\n`));
 await sleep(0);
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
 
@@ -73,7 +73,7 @@ ${chalk.red(` Status : Succes✓`)}\n`));
 await sleep(0);
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
 
-${chalk.red(` Status : Succes✓`)}\n`));
+${chalk.green(` Status : Succes✓`)}\n`));
 await sleep(0);
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
 
@@ -81,7 +81,7 @@ ${chalk.red(` Status : Succes✓`)}\n`));
 await sleep(0);
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
 
-${chalk.red(` Status : Succes✓`)}\n`));
+${chalk.green(` Status : Succes✓`)}\n`));
 await sleep(0);
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
 
@@ -89,7 +89,7 @@ ${chalk.red(` Status : Succes✓`)}\n`));
 await sleep(0);
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
 
-${chalk.red(` Status : Succes✓`)}\n`));
+${chalk.green(` Status : Succes✓`)}\n`));
 await sleep(0);
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`has your account been banned?`));
