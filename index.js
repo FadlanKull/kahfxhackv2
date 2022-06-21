@@ -15,7 +15,7 @@ function sleep(ms) {
             align: 'left',
             gradient: ['red', 'magenta']
         })
-        await sleep(1000);
+        await sleep(1500);
         console.clear()
         console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
 console.log(`${chalk.white(`
@@ -24,7 +24,7 @@ console.log(`${chalk.white(`
 
 Choose to use the available number`)} 
 `);
-const round = rs.question(`[+] Select Number  : `);
+const round = rs.question(`[+] Select Number 8 : `);
     console.log('');
     
     const GoStumble = (auth) => new Promise((resolve, reject) => {
