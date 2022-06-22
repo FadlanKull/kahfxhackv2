@@ -15,7 +15,7 @@ function sleep(ms) {
             align: 'left',
             gradient: ['red', 'magenta']
         })
-        await sleep(3000);
+        await sleep(1000);
         console.clear()
         console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
 console.log(`${chalk.white(`
@@ -53,7 +53,7 @@ console.clear()
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Maybe Auth Token Expired ?`));
+      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Maybe Auth Token Expired Fadlannnn ?`));
 
     } else if (result.includes('User')) {
 
